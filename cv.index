@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyen Thi Diem Huong - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #0a58ca;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact-info {
+      margin-bottom: 10px;
+    }
+    .contact-info span {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .skills, .projects, .education {
+      background: #f0f8ff;
+      padding: 10px 20px;
+      border-left: 4px solid #0a58ca;
+    }
+    .projects ul, .skills ul {
+      list-style: disc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Nguyen Thi Diem Huong</h1>
+    <h3>DevOps Intern</h3>
+    <div class="contact-info">
+      <span>📞 0899672358</span>
+      <span>📧 diemhuong3021@gmail.com</span>
+      <span>📍 Cần Thơ</span>
+    </div>
+
+    <div class="section">
+      <h2>🎯 Career Objective</h2>
+      <p>Aspiring to become a professional DevOps Engineer with skills in deploying and operating microservices systems using Docker and Kong API Gateway. Seeking an internship opportunity to gain practical experience in infrastructure management, system optimization, and API security.</p>
+    </div>
+
+    <div class="section skills">
+      <h2>🛠️ Skills</h2>
+      <ul>
+        <li><strong>Spring Boot:</strong> Develop RESTful APIs following the microservices architecture.</li>
+        <li><strong>React, HTML, CSS:</strong> Design user interfaces that interact with backend systems.</li>
+        <li><strong>Docker & Docker Hub:</strong> Containerize applications, use Docker Compose, publish images.</li>
+        <li><strong>Kong API Gateway:</strong> Configure services, routes, JWT authentication.</li>
+        <li><strong>MongoDB:</strong> Design and integrate databases for each microservice.</li>
+      </ul>
+    </div>
+
+    <div class="section education">
+      <h2>🎓 Education</h2>
+      <p><strong>Data Communication and Computer Networks</strong> (2021–2025)</p>
+      <p>Can Tho University</p>
+    </div>
+
+    <div class="section projects">
+      <h2>💼 Projects</h2>
+      <h3>Distributed Course Registration System (2/2025 - 4/2025)</h3>
+      <p><strong>Team size:</strong> 2 members</p>
+      <p><strong>Role:</strong> Web Developer – Developed and completed the entire web application.</p>
+      <p><strong>Technologies:</strong> Docker, Kong API Gateway, Spring Boot, MongoDB, MySQL, React</p>
+      <ul>
+        <li>Designed and implemented 6 independent microservices.</li>
+        <li>Containerized all services using Docker, wrote Dockerfiles and Docker Compose configuration.</li>
+        <li>Configured Kong API Gateway for routing and securing APIs:</li>
+        <ul>
+          <li>Created services and routes for each microservice.</li>
+          <li>Enabled JWT plugin for authentication protection.</li>
+        </ul>
+        <li>Built a complete web application using React, including timetable display and course group selection.</li>
+        <li>Integrated frontend and backend through containerized RESTful APIs.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
